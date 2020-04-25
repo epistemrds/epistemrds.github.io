@@ -35,7 +35,7 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 For more features, we can use the flavor [Kramdown](https://kramdown.gettalong.org "hp").
 Here is the Kramdown [quickref](https://kramdown.gettalong.org/quickref.html)
 
-$$E = M \cdot c^2$$
+$\sum_{i=1}^m y^{(i)}$
 
 ### Jekyll Themes
 
