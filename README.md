@@ -1,4 +1,6 @@
-# WORK IN PROGRESS
+# THIS SITE IS A WORK IN PROGRESS
+### Homepage: https://www.unjustifiedmargins.com/
+
 
 ## Welcome to GitHub Pages
 
@@ -29,6 +31,11 @@ Syntax highlighted code block
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+For more features, we can use the flavor [Kramdown](https://kramdown.gettalong.org "hp").
+Here is the Kramdown [quickref](https://kramdown.gettalong.org/quickref.html)
+
+$$E = M \cdot c^2$$
 
 ### Jekyll Themes
 
