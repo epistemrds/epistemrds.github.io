@@ -10,5 +10,6 @@ theme: jekyll-theme-slate
 # Plugins
 # ---------------------------------------------------------------
 
+markdown: kramdown
 mathjax: true
 
