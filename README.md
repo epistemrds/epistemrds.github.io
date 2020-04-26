@@ -34,8 +34,24 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 For more features, we can use the flavor [Kramdown](https://kramdown.gettalong.org "hp").
 Here is the Kramdown [quickref](https://kramdown.gettalong.org/quickref.html)
+Use $$ as delimiters to enable TeX math mode, both for inline and display (i.e. block) rendering.
 
-$\sum_{i=1}^m y^{(i)}$
+### Support for MathJax
+Here is an example equation that is inline: $$a^2 + b^2 = c^2$$, where $$a$$, $$b$$, and $$c$$ are variables.
+
+Here is a block rendering with no default equation numbering:
+
+$$ \frac{1}{n^{2}} $$
+
+And, below is a block using the \begin{equation} and \end{equation} LaTeX delimiters. This equation will be numbered in the ams and all setting for mathjax.tags.
+
+$$ \begin{equation} \mathbf{X}{n,p} = \mathbf{A}{n,k} \mathbf{B}_{k,p} \label{test} \end{equation} $$
+
+If equation numbering is turned on, we should see an equation number here: $$\eqref{test}$$.
+
+An example using the {align} LaTeX environment is below. The first equation has a \notag directive.
+
+$$ \begin{align} (x + y) (x - y) &= x^2 + xy - xy + y^2 \notag \ &= x^2 - y^2 \end{align} $$
 
 ### Jekyll Themes
 
