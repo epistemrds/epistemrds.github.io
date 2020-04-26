@@ -8,8 +8,7 @@ theme: jekyll-theme-slate
 
 # ---------------------------------------------------------------
 # Plugins
-# Fast math rendering:  https://katex.org/docs/autorender.html
 # ---------------------------------------------------------------
 
 markdown: kramdown
-
+use_math: true
