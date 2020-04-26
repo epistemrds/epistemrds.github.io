@@ -36,8 +36,8 @@ For more features, we can use the flavor [Kramdown](https://kramdown.gettalong.o
 Here is the Kramdown [quickref](https://kramdown.gettalong.org/quickref.html)
 Use $$ as delimiters to enable TeX math mode, both for inline and display (i.e. block) rendering.
 
-### Support for MathJax
-
+### Support for MathJax3
+#### Problematic with GitHub Pages (especially in README.md files) without hacky workarounds
 Use `$$` as delimiters to enable TeX math mode, both for inline and display (i.e. block) rendering.
 
 Here is an example equation that is inline: $$a^2 + b^2 = c^2$$, where
