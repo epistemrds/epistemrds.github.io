@@ -11,4 +11,7 @@ theme: jekyll-theme-slate
 # ---------------------------------------------------------------
 
 markdown: kramdown
-use_math: true
+mathjax:
+  enable: true
+  combo: "tex-svg"
+  tags: "ams"
