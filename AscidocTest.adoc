@@ -4,4 +4,8 @@
 == With Exponents
 Here is an inline formula footnote:[Here is a footnote example] using the asciidoc STEM syntax:  stem:[e=m*c^2]
 
+and a stand-alone equation
+
 stem:[e^(pii) +1 = 0]
+
+=== Third-Level Header
