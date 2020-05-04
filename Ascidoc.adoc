@@ -1,0 +1,5 @@
+= Page Title
+:stem:  
+
+== Subheading
+Here is an inline formula footnote:[Here is a footnote example] using the asciidoc STEM syntax:  stem:[e=mc^2]
